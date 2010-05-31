@@ -1,0 +1,15 @@
+“doxentral” is CI based file sharing web app.
+
+-> Add new users
+-> Upload files
+-> Assign files to other users
+-> Users can upload new files. They can download files admin has assigned to them.
+
+Uses SWFUpload (http://www.swfupload.org/), jQuery::ColorBox (http://colorpowered.com/colorbox/)
+
+1) db.sql has the DDL required to setup initial database.
+
+You may have to modify the following config files before attempting to run the app.
+database.php
+config.php
+settings.php
