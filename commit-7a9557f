@@ -1,0 +1,28 @@
+commit 7a9557fd24b1c630895fbae32c18d30817b7a7aa
+Author: Guru Prasanna C S <guru@harvest-soft.com>
+Date:   Mon May 31 17:00:42 2010 +0530
+
+    Read me...
+
+diff --git a/readme b/readme
+new file mode 100644
+index 0000000..bd40830
+--- /dev/null
++++ b/readme
+@@ -0,0 +1,15 @@
++“doxentral” is CI based file sharing web app.
++
++-> Add new users
++-> Upload files
++-> Assign files to other users
++-> Users can upload new files. They can download files admin has assigned to them.
++
++Uses SWFUpload (http://www.swfupload.org/), jQuery::ColorBox (http://colorpowered.com/colorbox/)
++
++1) db.sql has the DDL required to setup initial database.
++
++You may have to modify the following config files before attempting to run the app.
++database.php
++config.php
++settings.php
+\ No newline at end of file
