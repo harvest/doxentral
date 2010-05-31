@@ -1,0 +1,245 @@
+body{
+ background-color:#fff;
+ margin:10px;
+ padding:0px
+ font-family: Verdana, Sans-serif;
+ font-size:12px;
+ color:#4F5155;
+}
+a {text-decoration:none;font-size:10px;color:lightblue;}
+a:hover {text-decoration:underline;}
+
+/*** Top Navigation Styles ***/
+a.link, a.link:hover, a.link-active{
+	font-size:12px;
+	color:#000;	
+	font-family: Verdana, Sans-serif;
+	text-decoration:none;
+}
+a.link { color:#000; }
+a.link:hover, a.link-active{ color:#fff; }
+a.link-active{ padding-bottom:2px; font-weight:bold; }
+
+/*** Heading Styles ***/
+h1, h2{ font-family: Verdana, Sans-serif; font-weight:bold; color:lightgreen; }
+h1{ font-size:18px; }
+h2{ font-size:14px; }
+h1 span, h2 span{ color:#111111; }
+
+/*** Footer Links Styles ***/
+a.footer-link, a.footer-link:hover, a.footer-link-active{
+	font-family: Verdana, Sans-serif;
+	text-decoration:none;
+	font-style:italic;
+	font-size:12px;
+}
+a.footer-link { color:#676767; }
+a.footer-link:hover, a.footer-link-active{ color:lightblue; }
+p, input, div, td{
+ font-family: Verdana, Sans-serif;
+ color:#000;
+}
+input{
+	padding:2px 4px 2px 4px;
+	font-size: 12px;
+	font-weight:bold;
+	background-color:#fff;
+}
+#login{
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+}
+.btn{
+	font-family: Verdana, Sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	background-color:green;
+	color:#fff;
+	padding:2px 8px 2px 8px;
+	border:1px solid lightblue;
+	cursor:pointer;
+	float:center;
+}
+.caption{
+	font-family: Verdana, Sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:2px 4px 2px 4px;
+}
+.desc{
+	font-family: Verdana, Sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	text-decoration:none;
+	color:grey;
+}
+.green_bg{
+	font-size:10px;
+	padding:1px;
+	color:green;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.gold_bg{
+	font-size:10px;
+	padding:1px;
+	color:gold;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.red_bg{
+	font-size:10px;
+	padding:1px;
+	color:red;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.input{
+	padding:2px 4px 2px 4px;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#fff;
+}
+.logo{
+	display:block;
+	border:0px;
+	float:left;
+	width:191px;
+	height:46px;
+}
+.clear{
+	clear:both;
+}
+.secLabel{
+	width:120px;
+	float:left;
+	text-align:right;
+	vertical-align:middle;
+}
+.secField{
+}
+.inputRow{
+	height:35px;
+	margin:5px 0px 5px 0px;
+}
+.inlineErr{
+	margin:10px 0px 5px 0px;
+	padding:2px 1px 1px 4px;
+	border-left:2px solid lightblue;
+	background:rgb(255, 235, 232);
+	font-size:10px;
+	text-decoration:none;
+	font-style:italic;
+}
+.err{
+	width: 100%;
+	padding:4px;
+	border-left:2px solid lightblue;
+	background:rgb(255, 235, 232);
+	font-size:14px;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+}
+.greyBox{
+	width:400px;
+	padding:4px;
+	background-color:lightgrey;
+	font-family: Verdana, Sans-serif;
+	text-decoration:none;
+	font-style:normal;
+	font-size:11px;
+	border-bottom:2px solid lightblue;
+	display:none;
+}
+.good {
+	font-family: Verdana, Sans-serif;
+	text-decoration:none;
+	font-style:normal;
+	font-size:11px;
+	font-weight:bold;
+	color:green;
+}
+.bad {
+	font-family: Verdana, Sans-serif;
+	text-decoration:none;
+	font-style:normal;
+	font-size:11px;
+	font-weight:bold;
+	color:darkred;
+}
+
+/* Two Column Block */
+#twoColBlock{ 
+	width:98%;
+	float:left;
+	padding:10px;
+}
+#twoColBlock #files{
+	width:60%;
+	float:left;
+	height:400px;
+	overflow:auto;
+}
+#twoColBlock #quickLinks{
+	width:25%;
+	float:right;
+	border:1px solid #333333;
+	padding:4px 10px;
+	margin-right: 5px;
+}
+#navbar{
+  font-family: Arial, Sans-serif;
+  width:100%;
+  text-align:left;
+  margin-top:10px;
+  padding:0.5em;
+  border-top:1px solid lightblue;
+  background-color:silver;
+}
+#files{
+	width:60%;
+	margin-top:5px;
+	margin-left:30px;
+	padding:5px; 
+}
+#quickLinks{
+	width:25%;
+	padding:5px; 
+}
+#footer{
+  width:100%;
+  text-align:center;
+  margin-top:20px;
+  padding:0.5em;
+}
+
+/* Grid */
+#table{
+	font-family: Verdana, Sans-serif;
+	width:98%;
+	border-collapse:collapse;
+}
+#table td, #table th{
+	font-size:12px;
+	border:1px solid lightblue;
+	padding:3px 7px 2px 7px;
+}
+#table th{
+	font-size:14px;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:lightblue;
+	color:#ffffff;
+}
+#table tr.alt td{
+	color:#000000;
+	background-color:lightgrey;
+}
+.tinyTag{
+	font-family:"Lucida Grande", Verdana, Sans-serif;
+	font-size:10px;
+	font-style:italic;
+}
